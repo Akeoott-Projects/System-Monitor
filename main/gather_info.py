@@ -157,3 +157,10 @@ class GatherSystemInfo:
         if self.active_log: log.info("INFO: Logging inside class `GatherSystemInfo` is now off to prevent large repetitions.")
         self.active_log = False
         return info
+    
+if False:
+    if __name__ == "__main__":
+        import json
+        a = GatherSystemInfo()
+        info = a.system_info()
+        print(json.dumps(info, indent=2))
