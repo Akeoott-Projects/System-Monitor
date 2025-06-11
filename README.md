@@ -52,7 +52,7 @@ Install dependencies with:
 
 3. **Interact**
   - Press `Enter` to refresh the system information.
-  - Enter `s` to trigger the **currently unimplemented** save function.
+  - Enter `s` to trigger the save function. You will be prompted for a file name and directory, and the current system info will be saved as a JSON file.
   - Press `Ctrl+C` to exit the monitor or just close the window.
 
 ## Project Structure
@@ -71,8 +71,7 @@ Install dependencies with:
 
 ## Notes
 
-  - Sensor information (temperatures, battery) is limited, especially on    Windows.
-  - The save functionality is a placeholder and not yet implemented.
+  - Sensor information (temperatures, battery) is limited, especially on Windows.
   - Designed for cross-platform use, but some features may vary by OS.
 
 ## License
