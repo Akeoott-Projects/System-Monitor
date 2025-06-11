@@ -18,8 +18,8 @@ class GatherSystemInfo:
         # Initialize data containers
         self.cpu     = {}
         self.memory  = {}
-        self.disks   = {}
-        self.network = {}
+        self.disks   = []
+        self.network = []
         self.sensors = {}
         self.other   = {}
 

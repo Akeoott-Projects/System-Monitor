@@ -8,7 +8,6 @@ including CPU, memory, disks, network, sensors, and other system details.
 MAIN_FILE_VERSION = "1.0.0"
 
 from log_config import log
-import time
 import sys
 
 try:
