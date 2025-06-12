@@ -1,5 +1,7 @@
 # display_renderer.py just for display.
 
+DISPLAY_RENDERER_FILE_VERSION = "1.0.0"
+
 from formatting import bytes_to_human_readable, seconds_to_human_readable, timestamp_to_datetime_str
 from tabulate import tabulate
 import os

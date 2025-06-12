@@ -1,5 +1,7 @@
 # formatting.py just for makin things look normal.
 
+FORMATTING_FILE_VERSION = "1.0.0"
+
 import time
 from datetime import datetime
 import psutil
